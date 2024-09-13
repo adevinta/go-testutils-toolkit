@@ -27,7 +27,7 @@ jobs:
     - name: Setup Golang
       uses: actions/setup-go@v4
       with:
-        go-version: '1.22'
+        go-version: stable
 
     - name: run go tests
       run: |
